@@ -1,5 +1,9 @@
-The boilerplate comes with webpack, and react installed along with enzyme as a testing suite and chai for asserions
+Learning React by following https://www.udemy.com/learn-react-the-worlds-most-lucrative-javascript-library/ by Vaibhav Namburi
 
-NPM install to download all the modules
+install:
 
-The environment also uses babel-eslint as a linter core for es-lint, the configuration for which can be changed in .eslintrc
+`npm install`
+
+run:
+
+`npm run`
