@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './app.css';
-import SearchBar from './SearchBar/SearchBar';
+import SearchBar from './SearchBar/SearchBar.js';
 import searchSpotify from '../utils/searchSpotify';
 import SongItem from './SongItem/SongItem';
 import SongList from './SongList/SongList';
@@ -19,7 +19,7 @@ export default class App extends Component {
 
   fetchSongs = () => {
     searchSpotify(this.state.song)
-      .then(({ tracks }) => this.setState({ tracks }));
+      .then((tracks) => this.setState({ tracks }));
   }
 
   render() {
